@@ -21,16 +21,16 @@ public class Endereco implements Serializable {
     private long id;
 
     @Column(name = "rua", nullable = false, length = 80)
-    private String nome;
+    private String rua;
 
     @Column(name = "numero", nullable = false, length = 80)
-    private String sobrenome;
+    private String numero;
 
     @Column(name = "bairro", nullable = false, length = 80)
-    private String cpf;
+    private String bairro;
 
     @Column(name = "cidade", nullable = false, length = 10)
-    private Date data;
+    private Date cidade;
 
     public Endereco() {
     }
@@ -47,36 +47,36 @@ public class Endereco implements Serializable {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getRua() {
+        return rua;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setRua(String rua) {
+        this.rua = rua;
     }
 
-    public String getSobrenome() {
-        return sobrenome;
+    public String getNumero() {
+        return numero;
     }
 
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
+    public void setNumero(String numero) {
+        this.numero = numero;
     }
 
-    public String getCpf() {
-        return cpf;
+    public String getBairro() {
+        return bairro;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
     }
 
-    public Date getData() {
-        return data;
+    public Date getCidade() {
+        return cidade;
     }
 
-    public void setData(Date data) {
-        this.data = data;
+    public void setCidade(Date cidade) {
+        this.cidade = cidade;
     }
 
     @Override
@@ -84,10 +84,10 @@ public class Endereco implements Serializable {
         final int prime = 31;
         int result = 1;
         result = prime * result + (int) (id ^ (id >>> 32));
-        result = prime * result + ((nome == null) ? 0 : nome.hashCode());
-        result = prime * result + ((sobrenome == null) ? 0 : sobrenome.hashCode());
-        result = prime * result + ((cpf == null) ? 0 : cpf.hashCode());
-        result = prime * result + ((data == null) ? 0 : data.hashCode());
+        result = prime * result + ((rua == null) ? 0 : rua.hashCode());
+        result = prime * result + ((numero == null) ? 0 : numero.hashCode());
+        result = prime * result + ((bairro == null) ? 0 : bairro.hashCode());
+        result = prime * result + ((cidade == null) ? 0 : cidade.hashCode());
         return result;
     }
 
@@ -102,27 +102,26 @@ public class Endereco implements Serializable {
         Endereco other = (Endereco) obj;
         if (id != other.id)
             return false;
-        if (nome == null) {
-            if (other.nome != null)
+        if (rua == null) {
+            if (other.rua != null)
                 return false;
-        } else if (!nome.equals(other.nome))
+        } else if (!rua.equals(other.rua))
             return false;
-        if (sobrenome == null) {
-            if (other.sobrenome != null)
+        if (numero == null) {
+            if (other.numero != null)
                 return false;
-        } else if (!sobrenome.equals(other.sobrenome))
+        } else if (!numero.equals(other.numero))
             return false;
-        if (cpf == null) {
-            if (other.cpf != null)
+        if (bairro == null) {
+            if (other.bairro != null)
                 return false;
-        } else if (!cpf.equals(other.cpf))
+        } else if (!bairro.equals(other.bairro))
             return false;
-        if (data == null) {
-            if (other.data != null)
+        if (cidade == null) {
+            if (other.cidade != null)
                 return false;
-        } else if (!data.equals(other.data))
+        } else if (!cidade.equals(other.cidade))
             return false;
         return true;
     }
-
 }

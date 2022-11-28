@@ -26,7 +26,7 @@ public class Dentista implements Serializable {
     private String sobrenome;
 
     @Column(name = "matricula", nullable = false, length = 80)
-    private String cpf;
+    private Integer matricula;
 
     public Dentista() {
     }
@@ -59,12 +59,12 @@ public class Dentista implements Serializable {
         this.sobrenome = sobrenome;
     }
 
-    public String getCpf() {
-        return cpf;
+    public Integer getMatricula() {
+        return matricula;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setMatricula(Integer matricula) {
+        this.matricula = matricula;
     }
 
     @Override
@@ -74,7 +74,7 @@ public class Dentista implements Serializable {
         result = prime * result + (int) (id ^ (id >>> 32));
         result = prime * result + ((nome == null) ? 0 : nome.hashCode());
         result = prime * result + ((sobrenome == null) ? 0 : sobrenome.hashCode());
-        result = prime * result + ((cpf == null) ? 0 : cpf.hashCode());
+        result = prime * result + ((matricula == null) ? 0 : matricula.hashCode());
         return result;
     }
 
@@ -99,10 +99,10 @@ public class Dentista implements Serializable {
                 return false;
         } else if (!sobrenome.equals(other.sobrenome))
             return false;
-        if (cpf == null) {
-            if (other.cpf != null)
+        if (matricula == null) {
+            if (other.matricula != null)
                 return false;
-        } else if (!cpf.equals(other.cpf))
+        } else if (!matricula.equals(other.matricula))
             return false;
         return true;
     }
