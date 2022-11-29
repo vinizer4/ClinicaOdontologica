@@ -2,13 +2,9 @@ package com.odonto.clinicaodonto.model;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "paciente")
@@ -32,8 +28,18 @@ public class Paciente implements Serializable {
     @Column(name = "data_nascimento", nullable = false, length = 10)
     private Date data;
 
+
+    //relacao
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "endereco_id")
     @Column(name = "endereco", nullable = false, length = 150)
     private Endereco endereco;
+
+
+
+    //relação
+    @OneToMany(mappedBy = "paciente")
+    List<Consulta> consultaList;
 
     public Paciente() {
     }
