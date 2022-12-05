@@ -14,11 +14,11 @@ public class Consulta {
     private Long id;
 
     //relacao
-    @ManyToOne
+    @ManyToOne //muitas consultas para um dentista
     @JoinColumn(name = "dentista_id")
     private Dentista dentista;
     //relacao
-    @ManyToOne
+    @ManyToOne //muitas consultas para um dentista
     @JoinColumn(name = "paciente_id")
     private Paciente paciente;
 
