@@ -30,11 +30,11 @@ public class Paciente implements Serializable {
 
 
     //relacao
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "endereco_id")
-    @Column(name = "endereco", nullable = false, length = 150)
-    private Endereco endereco;
 
+    //um endereço pra um paciente
+    @OneToOne (cascade = CascadeType.ALL) //os eventos anteriores serão sempre refletidos nas Entities relacionadas.
+    @JoinColumn(name = "endereco_id")
+    private Endereco endereco;
 
 
     //relação
