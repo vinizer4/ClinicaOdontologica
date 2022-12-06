@@ -1,24 +1,15 @@
 package com.odonto.clinicaodonto.controller;
 
-import java.util.List;
-
+import com.odonto.clinicaodonto.model.Endereco;
+import com.odonto.clinicaodonto.services.EnderecoServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import com.odonto.clinicaodonto.services.EnderecoServices;
-
-import com.odonto.clinicaodonto.model.Endereco;
+import java.util.List;
 
 @RestController
-@RequestMapping("/paciente")
+@RequestMapping("/endereco")
 public class EnderecoController {
 
     @Autowired
