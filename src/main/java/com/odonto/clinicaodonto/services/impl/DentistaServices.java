@@ -1,4 +1,4 @@
-package com.odonto.clinicaodonto.services;
+package com.odonto.clinicaodonto.services.impl;
 
 import java.util.List;
 import java.util.logging.Logger;

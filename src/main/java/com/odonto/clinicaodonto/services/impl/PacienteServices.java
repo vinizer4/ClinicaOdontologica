@@ -1,4 +1,4 @@
-package com.odonto.clinicaodonto.services;
+package com.odonto.clinicaodonto.services.impl;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -39,7 +39,7 @@ public class PacienteServices {
     }
 
     public Paciente update(Paciente paciente) {
-        logger.info("Updating one person!");
+        logger.info("Paciente atualizado!");
 
         var entity = repository.findById(paciente.getId())
                 .orElseThrow(() -> new ResourceNotFoundException("No records found for this ID! "));
