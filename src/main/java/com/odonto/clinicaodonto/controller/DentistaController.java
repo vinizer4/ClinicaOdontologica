@@ -1,7 +1,7 @@
 package com.odonto.clinicaodonto.controller;
 
 import com.odonto.clinicaodonto.model.Dentista;
-import com.odonto.clinicaodonto.services.DentistaServices;
+import com.odonto.clinicaodonto.services.impl.DentistaServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

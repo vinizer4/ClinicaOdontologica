@@ -1,7 +1,7 @@
 package com.odonto.clinicaodonto.controller;
 
 import com.odonto.clinicaodonto.model.Endereco;
-import com.odonto.clinicaodonto.services.EnderecoServices;
+import com.odonto.clinicaodonto.services.impl.EnderecoServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
