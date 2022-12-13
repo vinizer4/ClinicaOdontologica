@@ -1,39 +1,54 @@
-# **Clinica Odontologica**
+<h1 align= "center"> Clínica Odontológica </h1>
 
-<br>
+[![skills](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot/)
+[![skills](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://docs.oracle.com/en/java/)
 
-## Projeto integrador Back-End - Digital House
 
-<br>
+![Forks](https://img.shields.io/github/forks/ViniciusOcker/IntegradoraFinal)
+![Stars](	https://img.shields.io/github/stars/ViniciusOcker/IntegradoraFinal)
+![license](https://img.shields.io/github/license/ViniciusOcker/IntegradoraFinal)
 
-**Integrantes** 👨🏾‍🎓: __Wallace Assis; Felipe Roberto Rocha; Vinicius Saraiva; Thiago Brito; Ricardo de Freitas__
 
-<br>
 
-#### Requisitos 
+# 📁 Projeto | Objetivo :star:
 
-Administração de dados odontológicos: Adicionar e modificar os dados dos dentistas. Registrar nome, sobrenome e matrícula de cadastro.
+Para Prática, Aplicação e Avaliação dos conhecimentos em BACK-END-CTD em Java.
 
-Administração de pacientes: Registrar, modificar e excluir pacientes. De cada um se armazenam: nome, sobrenome, endereço, RG, data de alta.
+Criação de um Sistema que permita administrar a reserva e marcação de consultas para uma ou qualquer Instituição Odonlogica.
+Esse Sistema será criado com o uso de Java, SpringBoot e com Banco de Dados.
 
-Login: Validar a entrada no sistema por meio de um login com nome de usuário e senha. Permitir que qualquer pessoa logada registre uma consulta, mas apenas aqueles que têm uma função de administração pode gerenciar dentistas e pacientes.
 
-Registrar consulta: Deve ser possível permitir que um paciente seja atribuído a uma consulta com um dentista em uma determinada data e hora.
+:construction: Projeto em construção :construction:
 
-<br>
+## ✔️ Requisitos: 
 
-#### Requisitos Técnicos 📋
+- `Administração de dados Odontológicos`
+- `Administração de Pacientes`
+- `Login`
+- `Registrar consulta`
+- `API RESTFul`
 
-Camada de entidade de negócios: são as classes Java do nosso negócio modeladas por meio do paradigma orientado a objetos;
+## ✔️ Tarefas:
 
-Camada de acesso a dados(Repositório): são as classes que se encarregam de acessar o banco de dados;
+- `Criação de Testes Unitários`
+- `Integração com APIs`
+- `Login com JWT e SpringSecurity`
+- `Documentação com Swagger`
+- `Integração com MySQL`
 
-Camada de dados(Banco de dados): é o banco de dados do nosso sistema modelado por meio de um modelo entidade-relacionamento. Usamos a base H2 por sua praticidade;
+## 🛠️ Técnicas e Tecnologias 
 
-Camada de negócio: são as classes de serviço que se encarregam de desaclopar o acesso aos dados da visão;
+- ``Java``
+- ``InteliJ IDEA``
+- ``POO``
+- ``SpringBoot``
+- ``Spring Data JPA``
+- ``Spring Security JWT``
+- ``RESTFul API``
+- ``RESTFul API``
+- ``SWAGGER``
 
-Camada de apresentação: estas são as telas da Web que teremos que desenvolver usando o Framework Spring Boot MVC com os controladores e uma dessas duas opções:HTML +JavaScript ou React para a visualização;
+## 👨‍🎓 Autores | Grupo 7
 
-<br>
-
-###### *Certified Tech Developer - Turma 2*
+| [<img src="https://avatars.githubusercontent.com/u/60163731?v=4" width=115><br><sub>Vinicius Teixeira Saraiva</sub>](https://github.com/ViniciusOcker) |  [<img src="https://avatars.githubusercontent.com/u/86082822?s=96&v=4" width=115><br><sub>Wallace Assis</sub>](https://github.com/Wallaceadm) |  [<img src="https://avatars.githubusercontent.com/u/37387009?v=4" width=115><br><sub>Felipe Roberto Rocha</sub>](https://github.com/Jirayakbc) | [<img src="https://avatars.githubusercontent.com/u/69219182?v=4" width=115><br><sub>Thiago Brito</sub>](https://github.com/TKBlade) | [<img src="https://avatars.githubusercontent.com/u/89046095?v=4" width=115><br><sub>Ricardo de Freitas</sub>](https://github.com/ricfreittas)
+| :---: | :---: | :---: | :---: | :---: | 
