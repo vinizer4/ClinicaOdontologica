@@ -4,6 +4,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -25,7 +26,7 @@ public class Paciente {
    @Column(name = "rg", unique = true, nullable = false,length = 10)
    private String rg;
    @Column(name = "dataCadastro", nullable = false)
-   private LocalDate dataCadastro;
+   private LocalDateTime dataCadastro;
    @OneToOne(cascade = CascadeType.ALL,orphanRemoval = true)
    @JoinColumn(name = "endereco_id")
    private Endereco endereco;

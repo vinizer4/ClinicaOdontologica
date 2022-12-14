@@ -8,13 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="vendas" />
-        <module name="ecommerce-API" />
         <module name="clinicaOdonto-API" />
+        <module name="ClinicaOdontologica" />
+        <module name="ecommerce-API" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ClinicaOdontologica" options="-parameters" />
       <module name="clinicaOdonto-API" options="-parameters" />
       <module name="ecommerce-API" options="-parameters" />
       <module name="vendas" options="-parameters" />

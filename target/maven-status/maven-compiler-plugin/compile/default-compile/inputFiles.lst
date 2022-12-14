@@ -1,38 +1,47 @@
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\exception\RegraNegocioException.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\entity\Produto.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\ApiErrors.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\validation\NotEmptyList.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\controller\UsuarioController.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\dto\CredenciaisDTO.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\VendasApplication.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\service\impl\UsuarioServiceImpl.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\repository\Clientes.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\repository\Produtos.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\config\SwaggerConfig.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\entity\Cliente.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\controller\ClienteController.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\exception\PedidoNaoEncontradoException.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\repository\UsuarioRepository.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\exception\SenhaInvalidaException.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\dto\InformacoesPedidoDTO.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\entity\ItemPedido.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\security\jwt\JwtService.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\repository\Pedidos.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\dto\PedidoDTO.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\enums\StatusPedido.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\controller\ProdutoController.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\service\PedidoService.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\config\InternacionalizacaoConfig.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\dto\AtualizacaoStatusPedidoDTO.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\service\impl\PedidoServiceImpl.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\repository\ItemsPedido.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\controller\ApplicationControllerAdvice.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\dto\ItemPedidoDTO.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\security\jwt\JwtAuthFilter.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\config\SecurityConfig.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\dto\TokenDTO.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\entity\Pedido.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\domain\entity\Usuario.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\controller\PedidoController.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\rest\dto\InformacaoItemPedidoDTO.java
-D:\Estudos\Software\Udemy\Spring Boot Expert\ecommerce-API\src\main\java\io\github\vinizer4\validation\constrainvalidation\NotEmptyListValidator.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\entity\Dentista.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\entity\Perfil.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\dto\ConsultaDto.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\repository\PacienteRepository.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\exception\PedidoNaoEncontradoException.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\dto\CredenciaisDTO.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\config\SecurityConfig.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\dto\PacienteDto.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\controller\DentistaController.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\exception\InvalidRegistrationException.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\ApiErrors.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\config\SwaggerConfig.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\repository\UsuarioRepository.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\dto\DentistaDto.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\entity\Endereco.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\repository\DentistaRepository.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\security\jwt\JwtAuthFilter.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\validation\NotEmptyList.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\controller\PacienteController.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\dto\DentistaConsultaDto.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\service\PacienteService.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\exception\ResourceNotFoundException.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\security\jwt\JwtService.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\service\DentistaService.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\controller\UsuarioController.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\exception\RegraNegocioException.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\controller\ConsultaController.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\service\impl\DentistaServiceImpl.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\exception\SenhaInvalidaException.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\config\InternacionalizacaoConfig.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\entity\Usuario.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\service\impl\UsuarioServiceImpl.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\dto\EnderecoDto.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\service\ConsultaService.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\entity\Paciente.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\enums\StatusPedido.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\controller\ApplicationControllerAdvice.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\service\impl\ConsultaServiceImpl.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\repository\ConsultaRepository.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\odontoApplication.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\dto\ConsultaMarcacaoDto.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\dto\TokenDTO.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\validation\constrainvalidation\NotEmptyListValidator.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\service\impl\PacienteServiceImpl.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\repository\PerfilRepository.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\rest\dto\PacienteConsultaDto.java
+D:\Estudos\Software\DigitalHouse\Backend\ClinicaOdontologica\src\main\java\io\github\vinizer4\domain\entity\Consulta.java

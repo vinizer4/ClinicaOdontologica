@@ -1,12 +1,15 @@
 package io.github.vinizer4.rest.dto;
 
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
 
+
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 
 @Getter
 @Setter
@@ -22,10 +25,9 @@ public class PacienteDto {
     @Size(min=2, max=250, message = "O nome precisa ser maior que 2 e nenor que 250 caracteres.")
     private String sobrenome;
     @NotBlank(message = "RG do paciente é obrigatório.")
-    @Size(min=9, max=10, message = "Rg precisa ter 10 caracteres.")
+    @Size(min=7, max=7, message = "Rg precisa ter 7 caracteres.")
     private String rg;
-    @JsonFormat(pattern = "dd/MM/yyyy", locale = "pt-BR", timezone = "Brazil/East")
-    private LocalDate dataCadastro;
+    private LocalDateTime dataCadastro;
     private EnderecoDto endereco;
 
 }

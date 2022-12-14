@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,7 +66,7 @@ public class PacienteServiceImpl implements PacienteService {
       log.info("[PacienteService] [savePaciente]");
       try{
          mapper.registerModule(new JavaTimeModule());
-         pacienteDto.setDataCadastro(LocalDate.now());
+         pacienteDto.setDataCadastro(LocalDateTime.now());
          Paciente paciente = mapper.convertValue(pacienteDto,Paciente.class);
          return ResponseEntity.status(HttpStatus.CREATED).body(mapper.convertValue(pacienteRepository.save(paciente),PacienteDto.class));
       }catch (Exception e){
